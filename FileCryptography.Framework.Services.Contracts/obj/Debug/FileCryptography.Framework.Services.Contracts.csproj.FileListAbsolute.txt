@@ -1,0 +1,7 @@
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Framework.Services.Contracts\bin\Debug\FileCryptography.Framework.Services.Contracts.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Framework.Services.Contracts\bin\Debug\FileCryptography.Framework.Services.Contracts.pdb
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Framework.Services.Contracts\bin\Debug\FileCryptography.Domain.Model.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Framework.Services.Contracts\bin\Debug\FileCryptography.Domain.Model.pdb
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Framework.Services.Contracts\obj\Debug\FileCryptography.Framework.Services.Contracts.csprojResolveAssemblyReference.cache
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Framework.Services.Contracts\obj\Debug\FileCryptography.Framework.Services.Contracts.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Framework.Services.Contracts\obj\Debug\FileCryptography.Framework.Services.Contracts.pdb

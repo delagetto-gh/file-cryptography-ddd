@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e16b7969-8058-4a23-aee4-6b9490c5bd70" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:30909/FileCryptographyService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileCryptographyService4.xsd" MetadataType="Schema" ID="020176fd-ef36-47e8-91d2-97c458689293" SourceId="1" SourceUrl="http://localhost:30909/FileCryptographyService.svc?xsd=xsd4" />
+    <MetadataFile FileName="FileCryptographyService1.xsd" MetadataType="Schema" ID="e5d30fea-20cd-4248-aa9f-fbbb0b9220b9" SourceId="1" SourceUrl="http://localhost:30909/FileCryptographyService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FileCryptographyService3.xsd" MetadataType="Schema" ID="f81a753e-a3de-4a68-bdcf-f038b71b4e1d" SourceId="1" SourceUrl="http://localhost:30909/FileCryptographyService.svc?xsd=xsd3" />
+    <MetadataFile FileName="FileCryptographyService.disco" MetadataType="Disco" ID="183eef3e-ce37-4351-a681-62859e9efea6" SourceId="1" SourceUrl="http://localhost:30909/FileCryptographyService.svc?disco" />
+    <MetadataFile FileName="FileCryptographyService.xsd" MetadataType="Schema" ID="7bd23b5b-4b8b-415a-9965-98cf2cc94e9d" SourceId="1" SourceUrl="http://localhost:30909/FileCryptographyService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FileCryptographyService2.xsd" MetadataType="Schema" ID="401d2508-ac0c-455b-9dcd-aff47020d0ba" SourceId="1" SourceUrl="http://localhost:30909/FileCryptographyService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PgpFileCryptographyService.wsdl" MetadataType="Wsdl" ID="4beb8e6e-eadd-48c9-93fa-84b0fe8bad80" SourceId="1" SourceUrl="http://localhost:30909/FileCryptographyService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
