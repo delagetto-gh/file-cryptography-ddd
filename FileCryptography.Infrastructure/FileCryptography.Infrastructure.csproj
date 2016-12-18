@@ -59,6 +59,7 @@
     <Compile Include="CommandHandler\CreateKeyCommandHandler.cs" />
     <Compile Include="CommandHandler\DecrypeFileCommandHandler.cs" />
     <Compile Include="EventDispatcher\ClrDelegateEventDispatcher.cs" />
+    <Compile Include="EventHandler\AuditLoggingEventHandler.cs" />
     <Compile Include="Ioc\UnityWrappedContainer.cs" />
     <Compile Include="Services\Cqrs\CommandService.cs" />
     <Compile Include="Services\Cqrs\QueryService.cs" />
@@ -96,7 +97,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EventHandler\" />
     <Folder Include="Queries\" />
   </ItemGroup>
   <ItemGroup>

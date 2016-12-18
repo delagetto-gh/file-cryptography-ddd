@@ -1,4 +1,0 @@
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Model\bin\Debug\FileCryptography.Domain.Model.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Model\bin\Debug\FileCryptography.Domain.Model.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Model\obj\Debug\FileCryptography.Domain.Model.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Model\obj\Debug\FileCryptography.Domain.Model.pdb

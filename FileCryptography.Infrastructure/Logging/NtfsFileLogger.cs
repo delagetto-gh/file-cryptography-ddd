@@ -11,26 +11,25 @@ namespace FileCryptography.Infrastructure.Logging
 {
     public class NtfsFileLogger : ILogger
     {
-        private readonly FileStream fileStream;
         private readonly string filePath;
 
         public NtfsFileLogger(string logFileDir)
         {
-            if (Directory.Exists(logFileDir))
+            if (!Directory.Exists(logFileDir))
+            {
                 Directory.CreateDirectory(logFileDir);
-            else
-                throw new UnauthorizedAccessException(String.Format("Cannot create folder at {0}", logFileDir));
-
-            this.filePath = String.Format("{0}\\{2}_{3}.txt", logFileDir, "FileCryptographyLog", DateTimeOffset.Now.ToString("d"));
-            this.fileStream = File.Create(this.filePath);
+            }
+            this.filePath = String.Format("{0}\\{1}_{2}.txt", logFileDir, "FileCryptographyLog", DateTimeOffset.Now.ToString("ddMMyy"));
+            File.Create(this.filePath);
         }
 
         public async Task Log(string message)
         {
-            using (var fsw = new StreamWriter(this.fileStream))
+            using (var fsw = new FileStream(this.filePath, FileMode.Append))
+            using (var sw = new StreamWriter(fsw))
             {
                 message = String.Format("Log-{0}: {1}", DateTimeOffset.Now, message);
-                await fsw.WriteAsync(message);
+                await sw.WriteLineAsync(message);
             }
         }
     }

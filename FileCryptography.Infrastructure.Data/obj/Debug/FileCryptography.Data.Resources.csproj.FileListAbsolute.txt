@@ -1,8 +1,0 @@
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\bin\Debug\Keys\FileCryptographyService.Private.gpg
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\bin\Debug\Keys\FileCryptographyService.Public.gpg
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\bin\Debug\Keys\FileCryptographyService.Private.Passphrase.pass
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\bin\Debug\FileCryptography.Data.Resources.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\bin\Debug\FileCryptography.Data.Resources.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\obj\Debug\FileCryptography.Data.Resources.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\obj\Debug\FileCryptography.Data.Resources.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Data.Resources\obj\Debug\FileCryptography.Data.Resources.csprojResolveAssemblyReference.cache

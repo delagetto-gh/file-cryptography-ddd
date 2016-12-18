@@ -129,6 +129,10 @@
       <Project>{b89d42df-fb10-43d3-b0ba-5dd2b5d4f3b5}</Project>
       <Name>FileCryptography.Domain.Commands</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FileCryptography.Domain.Events\FileCryptography.Domain.Events.csproj">
+      <Project>{83012efb-f78a-4687-aafb-8bfbb0ca09e7}</Project>
+      <Name>FileCryptography.Domain.Events</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FileCryptography.Domain.Interfaces\FileCryptography.Domain.Interfaces.csproj">
       <Project>{de231e2f-5eb4-47be-903e-1a5f5f3387ff}</Project>
       <Name>FileCryptography.Domain.Interfaces</Name>

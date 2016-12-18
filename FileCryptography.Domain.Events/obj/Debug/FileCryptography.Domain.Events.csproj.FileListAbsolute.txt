@@ -1,7 +1,0 @@
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Events\obj\Debug\FileCryptography.Domain.Events.csprojResolveAssemblyReference.cache
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Events\bin\Debug\FileCryptography.Domain.Events.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Events\bin\Debug\FileCryptography.Domain.Events.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Events\bin\Debug\FileCryptography.Domain.Interfaces.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Events\bin\Debug\FileCryptography.Domain.Interfaces.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Events\obj\Debug\FileCryptography.Domain.Events.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Events\obj\Debug\FileCryptography.Domain.Events.pdb

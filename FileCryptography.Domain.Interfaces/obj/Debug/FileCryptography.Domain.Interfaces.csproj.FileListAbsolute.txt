@@ -1,4 +1,0 @@
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Interfaces\bin\Debug\FileCryptography.Domain.Interfaces.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Interfaces\bin\Debug\FileCryptography.Domain.Interfaces.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Interfaces\obj\Debug\FileCryptography.Domain.Interfaces.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Domain.Interfaces\obj\Debug\FileCryptography.Domain.Interfaces.pdb

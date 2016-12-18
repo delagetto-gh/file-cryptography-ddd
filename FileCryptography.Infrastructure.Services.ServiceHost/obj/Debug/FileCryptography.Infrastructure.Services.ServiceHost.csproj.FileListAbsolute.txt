@@ -1,6 +1,0 @@
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services.ServiceHost\bin\FileCryptography.Infrastructure.Services.ServiceHost.dll.config
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services.ServiceHost\bin\FileCryptography.Infrastructure.Services.ServiceHost.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services.ServiceHost\bin\FileCryptography.Infrastructure.Services.ServiceHost.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services.ServiceHost\obj\Debug\FileCryptography.Infrastructure.Services.ServiceHost.csprojResolveAssemblyReference.cache
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services.ServiceHost\obj\Debug\FileCryptography.Infrastructure.Services.ServiceHost.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services.ServiceHost\obj\Debug\FileCryptography.Infrastructure.Services.ServiceHost.pdb

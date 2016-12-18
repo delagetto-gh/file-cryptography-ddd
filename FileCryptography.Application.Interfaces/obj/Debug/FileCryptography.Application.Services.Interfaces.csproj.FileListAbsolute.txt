@@ -1,5 +1,0 @@
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Services.Interfaces\bin\Debug\FileCryptography.Application.Services.Interfaces.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Services.Interfaces\bin\Debug\FileCryptography.Application.Services.Interfaces.pdb
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Services.Interfaces\obj\Debug\FileCryptography.Application.Services.Interfaces.csprojResolveAssemblyReference.cache
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Services.Interfaces\obj\Debug\FileCryptography.Application.Services.Interfaces.dll
-D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Services.Interfaces\obj\Debug\FileCryptography.Application.Services.Interfaces.pdb
