@@ -1,0 +1,4 @@
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services\bin\Debug\FileCryptography.Infrastructure.Services.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services\bin\Debug\FileCryptography.Infrastructure.Services.pdb
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services\obj\Debug\FileCryptography.Infrastructure.Services.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Infrastructure.Services\obj\Debug\FileCryptography.Infrastructure.Services.pdb

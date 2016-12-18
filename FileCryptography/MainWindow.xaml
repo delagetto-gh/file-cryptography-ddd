@@ -1,0 +1,45 @@
+﻿<Window x:Class="FileCryptography.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Menu"/>
+            <Grid Grid.Row="1" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <UniformGrid Margin="3" Columns="3">
+                    <TextBox Text="FullFilePath" ></TextBox>
+                    <ComboBox IsReadOnly="True" ItemsSource="{Binding PrivateKeys}" Text="Private Keys"/>
+                    <Button Content="Encrypt" Height="29" VerticalAlignment="Bottom"/>
+                </UniformGrid>
+                <UniformGrid Grid.Row="1" Margin="3" Columns="3">
+                    <TextBox Text="FullFilePath" ></TextBox>
+                    <ComboBox IsReadOnly="True" ItemsSource="{Binding PublicKeys}"/>
+                    <Button Content="Decrypt" Height="29" VerticalAlignment="Bottom"/>
+                </UniformGrid>
+            </Grid>
+            <Button Grid.Row="2" Content="Generate Key" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" />
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="90*"/>
+            </Grid.RowDefinitions>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Event Activity Log"/>
+            <DataGrid Grid.Row="1" AutoGenerateColumns="True"></DataGrid>
+        </Grid>
+    </Grid>
+</Window>

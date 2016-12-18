@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43373FB1-569B-4197-B79C-95E9B708EEB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FileCryptography.Infrastructure</RootNamespace>
+    <AssemblyName>FileCryptography.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandHandler\CreateKeyCommandHandler.cs" />
+    <Compile Include="CommandHandler\DecrypeFileCommandHandler.cs" />
+    <Compile Include="EventDispatcher\ClrDelegateEventDispatcher.cs" />
+    <Compile Include="Ioc\UnityWrappedContainer.cs" />
+    <Compile Include="Services\Cqrs\CommandService.cs" />
+    <Compile Include="Services\Cqrs\QueryService.cs" />
+    <Compile Include="Services\Domain\AppCommandIntepretorFactory.cs" />
+    <Compile Include="Services\Domain\GnuPgExecutionService.cs" />
+    <Compile Include="Services\Domain\GpgCommandInterpretor.cs" />
+    <Compile Include="Logging\NtfsFileLogger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Domain\WindowsCmdExecutor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileCryptography.Domain.Commands\FileCryptography.Domain.Commands.csproj">
+      <Project>{b89d42df-fb10-43d3-b0ba-5dd2b5d4f3b5}</Project>
+      <Name>FileCryptography.Domain.Commands</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileCryptography.Domain.Events\FileCryptography.Domain.Events.csproj">
+      <Project>{83012efb-f78a-4687-aafb-8bfbb0ca09e7}</Project>
+      <Name>FileCryptography.Domain.Events</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileCryptography.Domain.Interfaces\FileCryptography.Domain.Interfaces.csproj">
+      <Project>{de231e2f-5eb4-47be-903e-1a5f5f3387ff}</Project>
+      <Name>FileCryptography.Domain.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileCryptography.Domain\FileCryptography.Domain.csproj">
+      <Project>{ab3cd018-f91a-4fcd-ae45-cd1b32ef665a}</Project>
+      <Name>FileCryptography.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileCryptography.Infrastructure.Data\FileCryptography.Infrastructure.Data.csproj">
+      <Project>{c00a1ee4-772f-48bd-b697-931f33bacb88}</Project>
+      <Name>FileCryptography.Infrastructure.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileCryptography.Infrastructure.Interfaces\FileCryptography.Infrastructure.Interfaces.csproj">
+      <Project>{c435a3c1-bd57-4a79-957c-74dad57e6c9b}</Project>
+      <Name>FileCryptography.Infrastructure.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EventHandler\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

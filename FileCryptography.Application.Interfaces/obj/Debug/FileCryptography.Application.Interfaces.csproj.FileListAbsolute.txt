@@ -1,0 +1,9 @@
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\bin\Debug\FileCryptography.Application.Interfaces.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\bin\Debug\FileCryptography.Application.Interfaces.pdb
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\obj\Debug\FileCryptography.Application.Interfaces.csprojResolveAssemblyReference.cache
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\obj\Debug\FileCryptography.Application.Interfaces.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\obj\Debug\FileCryptography.Application.Interfaces.pdb
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\bin\Debug\FileCryptography.Infrastructure.Interfaces.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\bin\Debug\FileCryptography.Domain.Interfaces.dll
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\bin\Debug\FileCryptography.Infrastructure.Interfaces.pdb
+D:\Users\Goose\Documents\Visual Studio 2013\Projects\Wcf\FileCryptgraphy\FileCryptography.Application.Interfaces\bin\Debug\FileCryptography.Domain.Interfaces.pdb
